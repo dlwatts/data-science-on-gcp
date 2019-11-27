@@ -6,6 +6,7 @@ import ingest_flights
 
 import flask
 
+
 # [start config]
 app = flask.Flask(__name__)
 # Configure this environment variable via app.yaml
