@@ -1,8 +1,8 @@
 #!/bin/bash
 
-REGION='us-central1'
+REGION='us-east1'
 PROJECT=$(gcloud config get-value project)
-BUCKET=cloud-training-demos-ml
+BUCKET=ds-gcp-1
 
 URL="https://${REGION}-${PROJECT}.cloudfunctions.net/ingest_flights_udwaxx86mVygAmOazUcijW8zBXWNxEVM"
 TOKEN=changeme
