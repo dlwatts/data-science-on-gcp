@@ -4,7 +4,7 @@ REGION='us-east1'
 PROJECT=$(gcloud config get-value project)
 BUCKET=ds-gcp-1
 
-URL="https://${REGION}-${PROJECT}.cloudfunctions.net/ingest_flights_udwaxx86mVygAmOazUcijW8zBXWNxEVM"
+URL="https://${REGION}-${PROJECT}.cloudfunctions.net/ingest_flights_Dm29ClJgMKlVtfsR39E0vSSJKeFA4P3V"
 TOKEN=changeme
 echo {\"bucket\":\"${BUCKET}\", \"token\":\"${TOKEN}\"} > /tmp/message
 
